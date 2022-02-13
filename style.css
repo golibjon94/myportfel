@@ -131,3 +131,168 @@ section{
     margin-right: 30px;
     
 }
+
+/* Section about */
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title{
+    position: relative;
+    color: crimson;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.section-title::before{
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    width: 140px;
+    height: 4px;
+    background: crimson;
+    transform: translateX(-50%);
+}
+
+.section-title::after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: crimson;
+    transform: translateX(-50%);
+}
+
+/* About me */
+
+.about .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.about .content .col-left{
+    position: relative;
+    width: 45%;
+    
+}
+.about .content .col-right{
+    position: relative;
+    width: 45%;
+
+}
+
+.about .content .img-card {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+  }
+
+  .about .content .img-card img{
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+
+  .about .content-title {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 20px;
+  }
+
+
+
+  /*My Skills*/
+
+.skills {
+    background: #000016;
+}
+.skills .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.skills .col-left{
+    position: relative;
+    width: 45%;
+}
+.skills .col-left .content-title {
+    margin-bottom: 20px;
+}
+
+.skills .col-right {
+    position: relative;
+    width: 45%;
+}
+.skills .col-right .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.skills .col-right .bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skills .info span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills .line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+}
+
+.skills .line::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.skills .html::before{
+    width: 95%;
+    background: rgb(219, 69, 50);
+}
+.skills .css::before{
+    width: 80%;
+    background: rgb(12, 74, 209);
+}
+.skills .javascript::before{
+    width: 75%;
+    background: rgb(255, 197, 91);
+}
+.skills .react::before{
+    width: 70%;
+    background: rgb(17, 173, 173);
+}
+.skills .node::before{
+    width: 65%;
+    background: rgb(5, 189, 97);
+}
