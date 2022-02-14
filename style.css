@@ -296,3 +296,83 @@ section{
     width: 65%;
     background: rgb(5, 189, 97);
 }
+
+
+/* My Services */
+
+.services .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.title p {
+    width: 80%;
+  }
+
+.services .content .card {
+    background: #fff;
+    width: 300px;
+    margin: 10px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+}
+
+.services .card .service-icon {
+    color: crimson;
+    font-size: 120px;
+    text-align: center;
+    transition: transform .5s ease;
+  }
+  .services .card .service-icon:hover {
+    transform: translateY(-10px);
+  }
+    
+    /* My work section */
+
+    .work {
+        background: #000016;
+      }
+      
+      .work .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      
+      .work .content .card {
+        width: 340px;
+        margin: 15px;
+      }
+      
+      .work .content .card-img {
+        position: relative;
+        width: 100%;
+        height: 260px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      
+      .work .content .card-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: .5s ease
+      }
+      
+      .work .content .card-img img:hover {
+        transform: scale(1.2);
+      }
