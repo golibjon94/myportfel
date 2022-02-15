@@ -502,3 +502,61 @@ section{
   .footer p {
     margin-top: 10px;
   }
+
+  /*Responsive style*/
+
+  @media (max-width: 1040px) {
+      header {
+          padding: 12px 20px;
+      }
+      header .navigation {
+          display: none;
+      }
+      .menu-btn {
+          position: absolute;
+          background: url(./images/menu.png) no-repeat;
+          background-size: 30px;
+          background-position: center;
+          width: 40px;
+          height: 40px;
+          right: 0;
+          margin: 0 20px;
+          cursor: pointer;
+          transition: .4s ease;
+      }
+      section {
+          padding: 80px 20px;
+      }
+      .main .content h2 {
+        font-size: 25px;
+      }
+      .main .content h3 {
+          font-size: 35px;
+      }
+      .section-title {
+          font-size: 36px;
+      }
+      .about .content {
+          flex-direction: column;
+      }
+      .about .content .column {
+          position: relative;
+          width: 100%;
+      }
+      .about .content .col-right {
+          margin-top: 40px;
+      }
+       .skills .content {
+           flex-direction: column;
+       }
+       .skills .content .column {
+           position: relative;
+           width: 100%;
+       }
+       .skills .content .col-right {
+        margin-top: 40px;
+    }
+        .contact-form {
+            padding: 35px 40px;
+        }
+  }
